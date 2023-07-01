@@ -6,25 +6,26 @@
 }
 
 body{
-    background: #222;
-    padding: 2rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    background: linear-gradient(135deg, #1A2980, #26D0CE);
+    padding: 1rem;
+    min-height: 100vh;
+    
 }
 
 /* card */
 .card{
     width: 95%;
     max-width: 470px;
-    background: linear-gradient(135deg,#00feba,#5b548a);
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(5px);
     color: #fff;
-    margin: auto;
+    margin: 60px auto;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    position: relative;
 }
+
 
 .search{
     width: 100%;
